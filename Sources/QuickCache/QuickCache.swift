@@ -9,7 +9,7 @@ import Foundation
 import Cachyr
 
 public class QuickCache {
-    static let main: QuickCache = .init()
+    public static let main: QuickCache = .init()
     private let cache: DiskCache<Data> = .init()
     
     private init() {
